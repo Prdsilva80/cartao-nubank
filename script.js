@@ -1,7 +1,7 @@
 const card = document.querySelector('.container');
 
     card.addEventListener("mousemove", cardEffect);
-    card.addEventListener("mouseleav", cardBack);
+    card.addEventListener("mouseleave", cardBack);
     card.addEventListener("mouseenter", cardEnter);
 
     function cardEffect(event)
